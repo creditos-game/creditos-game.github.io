@@ -1,0 +1,16 @@
+.brief{
+	background: url(http://lorempixel.com/1920/400);
+	background-size: cover;
+	display: block;
+	overflow: hidden;
+
+	p{
+		color: #f2f2f2;
+		display: block;
+		@include font-size(32);
+		margin: 55px auto;
+		text-align: center;
+		text-transform: uppercase;
+		width: 80%;
+	}
+}
