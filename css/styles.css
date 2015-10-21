@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -367,6 +369,7 @@ html {
   .main-header h1 {
     border-top: 5px solid #c4c4c4;
     border-bottom: 5px solid #c4c4c4;
+    font-family: "Finger Paint";
     font-size: 32px;
     font-size: 3.2rem;
     margin: 0 auto;
@@ -390,7 +393,6 @@ html {
 
 .team {
   margin: 0;
-  position: absolute;
   width: 100%; }
   .team h2 {
     font-size: 24px;
