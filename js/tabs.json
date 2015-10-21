@@ -1,0 +1,220 @@
+{
+    "tabs" : [
+            {
+                "team":"Web Developers",
+                "explication" : "Es una explicación sobre Web",
+                "members" : [
+                    {
+                        "name" : "Tatiana Bonilla",
+                        "input" : "What do she do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/1.jpg"
+                    },
+                    {
+                        "name" : "Tatiana Bonilla",
+                        "input" : "What do she do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/2.jpg"
+                    },
+                    {
+                        "name" : "Tatiana Bonilla",
+                        "input" : "What do she do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/3.jpg"
+                    },
+                    {
+                        "name" : "Tatiana Bonilla",
+                        "input" : "What do she do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/4.jpg"
+                    },
+                    {
+                        "name" : "Tatiana Bonilla",
+                        "input" : "What do she do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/5.jpg"
+                    }
+                ]
+            },
+            {
+                "team":"Post-Productors",
+                "explication" : "",
+                "members" : [
+                    {
+                        "name" : "Sebastian Coto",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/1.jpg"
+                    },
+                    {
+                        "name" : "Sebastian Coto",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/2.jpg"
+                    },
+                    {
+                        "name" : "Sebastian Coto",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/3.jpg"
+                    },
+                    {
+                        "name" : "Sebastian Coto",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/4.jpg"
+                    },
+                    {
+                        "name" : "Sebastian Coto",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/5.jpg"
+                    }
+                ]
+            },
+            {
+                "team":"Animators",
+                "explication" : "",
+                "members" : [
+                    {
+                        "name" : "Jorge Devandas",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/1.jpg"
+                    },
+                    {
+                        "name" : "Jorge Devandas",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/2.jpg"
+                    },
+                    {
+                        "name" : "Jorge Devandas",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/3.jpg"
+                    },
+                    {
+                        "name" : "Jorge Devandas",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/4.jpg"
+                    },
+                    {
+                        "name" : "Jorge Devandas",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/5.jpg"
+                    }
+                ]
+            },
+            {
+                "team":"Administration",
+                "explication" : "",
+                "members" : [
+                    {
+                        "name" : "Laura Pacheco",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/1.jpg"
+                    },
+                    {
+                        "name" : "Laura Pacheco",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/2.jpg"
+                    },
+                    {
+                        "name" : "Laura Pacheco",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/3.jpg"
+                    },
+                    {
+                        "name" : "Laura Pacheco",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/4.jpg"
+                    },
+                    {
+                        "name" : "Laura Pacheco",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/5.jpg"
+                    }
+                ]
+            },
+            {
+                "team":"Collaborator",
+                "explication" : "",
+                "members" : [
+                    {
+                        "name" : "Experto Ramdom",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/1.jpg"
+                    },
+                    {
+                        "name" : "Experto Ramdom",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/2.jpg"
+                    },
+                    {
+                        "name" : "Experto Ramdom",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/3.jpg"
+                    },
+                    {
+                        "name" : "Experto Ramdom",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/4.jpg"
+                    },
+                    {
+                        "name" : "Experto Random",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/5.jpg"
+                    }
+                ]
+            },
+            {
+                "team":"Fair Play",
+                "explication" : "",
+                "members" : [
+                    {
+                        "name" : "Fair Play",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/1.jpg"
+                    },
+                    {
+                        "name" : "Fair Play",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/2.jpg"
+                    },
+                    {
+                        "name" : "Fair Play",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/3.jpg"
+                    },
+                    {
+                        "name" : "Fair Play",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/4.jpg"
+                    },
+                    {
+                        "name" : "Fair Play",
+                        "input" : "What do he do?",
+                        "portfolio" : "http//:#",
+                        "img" : "img/photos/5.jpg"
+                    }
+                ]
+            }
+        ]
+}
