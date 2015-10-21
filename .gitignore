@@ -1,9 +1,10 @@
 .sass-cache
 .DS_Store
-style.css.map
+styles.css.map
 
 **/.DS_Store
 **/.DS_Store/*
 **/.sass-cache/*
 **/.sass-cache
-**/style.css.map
+**/styles.css.map
+**/styles.css.map/*
