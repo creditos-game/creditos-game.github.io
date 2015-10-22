@@ -1,16 +1,16 @@
 .main-header {
-    background-image: url("../img/header/banner.jpg");
+    background-image: url("../img/header-banner.jpg");
     overflow: hidden;
     padding: 100px 0;
     text-align: center;
 
     h1 {
-        border-top: 5px solid $header-border;
-        border-bottom: 5px solid $header-border;
+        border-top: 5px solid $header-title-border;
+        border-bottom: 5px solid $header-title-border;
         font-family: $title-font;
         margin: 0 auto;
         padding: 3% 0;
-        width: 80%;ß
+        width: 80%;
         @include font-size($title-mob-size);
     }
 }
