@@ -9,5 +9,23 @@
 }
 
 .header-nav{
-	
+	background-color: #363434;
+	left: 0%;
+	height: 220px;
+	overflow: hidden;
+	position: absolute;
+	top: 17%;
+	width: 100%;
+}
+
+.header-nav-content{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.header-nav-item{
+	border-bottom: 1px solid #f2f2f2;
+	padding: 10px 0;
+	width: 100%;
 }

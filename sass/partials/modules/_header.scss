@@ -1,45 +1,28 @@
 .main-header {
     background-image: url("../img/header-banner.jpg");
     overflow: hidden;
-    padding: 100px 0;
+    padding: 10px 0;
     text-align: center;
 
     h1 {
         border-top: 5px solid $header-title-border;
         border-bottom: 5px solid $header-title-border;
+        color: $title-color;
         font-family: $title-font;
-        margin: 0 auto;
-        padding: 3% 0;
-        width: 80%;
+        margin: 20px auto;
+        padding: 20px 0;
+        width: 85%;
         @include font-size($title-mob-size);
     }
 }
 
-.team-nav {
-    background-color: rgba( 0 , 0, 0,.5 );
-    display: block;
-    height: 248px;
-    overflow: hidden;
-    width: 100%;
-
-    a {
-        color: #343434;
-        display: inline-block;
-        margin: 0;
-        padding: 10px 0;
-        text-align: center;
-        text-decoration: none;
-        width: 100%;
-        @include font-size(18);
-
-        &:hover {
-            background-color: #c4c4c4;
-        }
-    }
-}
-
-.team-details {
-    background-color: #868686;
-    height: 300px;
-    overflow: hidden;
+.brief {
+    @include font-size(18);
+    background-color: rgba(255,255,255,.3);
+    box-sizing: border-box;
+    color: $text-color;
+    font-family: $text-font;
+    margin: 0 auto;
+    padding: 20px;
+    width: 85%;
 }
