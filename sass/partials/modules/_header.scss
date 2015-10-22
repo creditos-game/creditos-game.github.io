@@ -5,8 +5,8 @@
     text-align: center;
 
     h1 {
-        border-top: 5px solid #c4c4c4;
-        border-bottom: 5px solid #c4c4c4;
+        border-top: 5px solid $header-border;
+        border-bottom: 5px solid $header-border;
         font-family: $title-font;
         margin: 0 auto;
         padding: 3% 0;
