@@ -10,7 +10,7 @@
         @include font-size( 24 );
     }
 }
-
+// content style for every team description.
 .team-content {
     display: block;
     height: auto;
@@ -47,5 +47,30 @@
         width: 100%;
     }
 }
+
+.team-developer {
+    background-color: ( $web-color );
+}
+
+.team-post-productor {
+    background-color: ( $post-prod-color);
+}
+
+.team-animator {
+    background-color: ( $anim-color );
+}
+
+.team-admin {
+    background-color: ( $admin-color );
+}
+
+.team-collaborator {
+    background-color: ( $collab-color );
+}
+
+.team-fair-play {
+    background-color: ( $fair-color );
+}
+
 
 

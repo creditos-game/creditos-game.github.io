@@ -417,7 +417,7 @@ html {
   width: 100%; }
 
 .team-details {
-  background-color: red;
+  background-color: #C94F60;
   height: 30%;
   overflow: hidden;
   width: 100%; }
@@ -439,5 +439,23 @@ html {
 
 .team-member img {
   width: 100%; }
+
+.team-developer {
+  background-color: #C94F60; }
+
+.team-post-productor {
+  background-color: #61BB49; }
+
+.team-animator {
+  background-color: #39BB9C; }
+
+.team-admin {
+  background-color: #F37C50; }
+
+.team-collaborator {
+  background-color: #c4c4c4; }
+
+.team-fair-play {
+  background-color: #D7AE83; }
 
 /*# sourceMappingURL=styles.css.map */
