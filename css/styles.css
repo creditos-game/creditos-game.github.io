@@ -418,13 +418,24 @@ html {
 
 .team-details {
   background-color: red;
-  height: auto;
+  height: 30em;
   overflow: hidden;
   width: 100%; }
   .team-details h2 {
     color: #fff;
     font-family: "Finger Paint";
-    text-align: center; }
+    margin: 4% auto 0;
+    font-size: 32px;
+    font-size: 3.2rem; }
+  .team-details p {
+    color: #fff;
+    line-height: 1.6em;
+    margin: 2% auto;
+    padding: 0 0 10% 0;
+    text-align: left;
+    width: 60%;
+    font-size: 16px;
+    font-size: 1.6rem; }
 
 .team-member img {
   width: 100%; }

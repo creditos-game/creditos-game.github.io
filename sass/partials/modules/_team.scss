@@ -19,14 +19,27 @@
 
 .team-details {
     background-color: $web-color;
-    height: auto;
+    height: 30em;
     overflow: hidden;
     width: 100%;
 
     h2 {
         color: $text-color-light;
         font-family: $title-font;
-        text-align: center;
+        margin: 4% auto 0;
+        // text-align: left;
+        @include font-size( $title-mob-size );
+    }
+
+    p {
+        color: $text-color-light;
+        line-height: 1.6em;
+        margin: 2% auto;
+        padding: 0 0 10% 0;
+        text-align: left;
+        width: 60%;
+        @include font-size( 16 );
+
     }
 }
 
