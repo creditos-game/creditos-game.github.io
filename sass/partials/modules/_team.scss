@@ -1,22 +1,3 @@
-.team-content {
-    display: block;
-    height: auto;
-    width: 100%;
-}
-
-.team-details {
-    background-color: #868686;
-    height: auto;
-    overflow: hidden;
-    width: 100%;
-
-    h2 {
-        color: $web-color;
-        font-family: $title-font;
-        text-align: center;
-    }
-}
-
 .team-section-wrapper {
     margin: 0;
     width: 100%;
@@ -29,4 +10,30 @@
         @include font-size( 24 );
     }
 }
+
+.team-content {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.team-details {
+    background-color: $web-color;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+
+    h2 {
+        color: $text-color-light;
+        font-family: $title-font;
+        text-align: center;
+    }
+}
+
+.team-member {
+    img{
+        width: 100%{}
+    }
+}
+
 

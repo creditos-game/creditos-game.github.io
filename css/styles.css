@@ -400,21 +400,6 @@ html {
   height: 300px;
   overflow: hidden; }
 
-.team-content {
-  display: block;
-  height: auto;
-  width: 100%; }
-
-.team-details {
-  background-color: #868686;
-  height: auto;
-  overflow: hidden;
-  width: 100%; }
-  .team-details h2 {
-    color: red;
-    font-family: "Finger Paint";
-    text-align: center; }
-
 .team-section-wrapper {
   margin: 0;
   width: 100%; }
@@ -425,5 +410,23 @@ html {
     width: 100%;
     font-size: 24px;
     font-size: 2.4rem; }
+
+.team-content {
+  display: block;
+  height: auto;
+  width: 100%; }
+
+.team-details {
+  background-color: red;
+  height: auto;
+  overflow: hidden;
+  width: 100%; }
+  .team-details h2 {
+    color: #fff;
+    font-family: "Finger Paint";
+    text-align: center; }
+
+.team-member img {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
