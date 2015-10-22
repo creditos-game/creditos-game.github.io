@@ -1,22 +1,3 @@
-.team-content {
-    display: block;
-    height: auto;
-    width: 100%;
-}
-
-.team-details {
-    background-color: #868686;
-    height: auto;
-    overflow: hidden;
-    width: 100%;
-
-    h2 {
-        color: $web-color;
-        font-family: $title-font;
-        text-align: center;
-    }
-}
-
 .team-section-wrapper {
     margin: 0;
     width: 100%;
@@ -29,4 +10,67 @@
         @include font-size( 24 );
     }
 }
+// content style for every team description.
+.team-content {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.team-details {
+    background-color: $web-color;
+    height: 30%;
+    overflow: hidden;
+    width: 100%;
+
+    h2 {
+        color: $text-color-light;
+        font-family: $title-font;
+        margin: 4% auto 0;
+        @include font-size( $title-mob-size );
+    }
+
+    p {
+        color: $text-color-light;
+        line-height: 1.6em;
+        margin: 2% auto;
+        padding: 0 0 10%;
+        text-align: left;
+        width: 60%;
+        @include font-size( 16 );
+
+    }
+}
+
+.team-member {
+    img{
+        width: 100%;
+    }
+}
+
+.team-developer {
+    background-color: ( $web-color );
+}
+
+.team-post-productor {
+    background-color: ( $post-prod-color);
+}
+
+.team-animator {
+    background-color: ( $anim-color );
+}
+
+.team-admin {
+    background-color: ( $admin-color );
+}
+
+.team-collaborator {
+    background-color: ( $collab-color );
+}
+
+.team-fair-play {
+    background-color: ( $fair-color );
+}
+
+
 
