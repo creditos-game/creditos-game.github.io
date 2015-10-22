@@ -1,5 +1,5 @@
 .main-header {
-    background-color: #f2f2f2;
+    background-image: url("../img/header/banner.jpg");
     overflow: hidden;
     padding: 100px 0;
     text-align: center;
@@ -10,7 +10,7 @@
         font-family: $title-font;
         margin: 0 auto;
         padding: 3% 0;
-        width: 80%;
+        width: 80%;ß
         @include font-size($title-mob-size);
     }
 }
