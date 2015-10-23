@@ -239,8 +239,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -411,7 +410,6 @@ li {
   width: 100%; }
 
 .team-details {
-  background-color: #C94F60;
   height: 30%;
   overflow: hidden;
   width: 100%; }

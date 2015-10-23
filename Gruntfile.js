@@ -25,7 +25,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'css/style.css': 'sass/style.scss'
+                    'css/styles.css': 'sass/styles.scss'
                 }
             },
             prod: {
@@ -33,7 +33,7 @@ module.exports = function (grunt) {
                   outputStyle: 'compressed'
                 },
                 files: {
-                    'css/style.css': 'sass/style.scss'
+                    'css/styles.css': 'sass/styles.scss'
                 }
             }
         },
