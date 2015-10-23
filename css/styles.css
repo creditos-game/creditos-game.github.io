@@ -425,12 +425,29 @@ li {
     margin: 2% auto;
     padding: 0 0 10%;
     text-align: left;
-    width: 60%;
+    width: 80%;
     font-size: 16px;
     font-size: 1.6rem; }
 
-.team-member img {
+.team-member {
+  color: #fff;
+  font-size: 1.5rem;
   width: 100%; }
+  .team-member img {
+    display: block;
+    width: 100%; }
+  .team-member .team-member-information {
+    display: block; }
+    .team-member .team-member-information h3,
+    .team-member .team-member-information h4 {
+      display: block;
+      font-size: 2rem;
+      padding: 0 5%;
+      width: 100%; }
+    .team-member .team-member-information p {
+      box-sizing: border;
+      padding: 0 10%;
+      width: 80%; }
 
 .team-developer {
   background-color: #C94F60; }
@@ -444,7 +461,7 @@ li {
 .team-admin {
   background-color: #F37C50; }
 
-.team-collaborator {
+.team-collaborators {
   background-color: #c4c4c4; }
 
 .team-fair-play {

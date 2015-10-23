@@ -10,7 +10,7 @@
         @include font-size( 24 );
     }
 }
-// content style for every team description.
+
 .team-content {
     display: block;
     height: auto;
@@ -35,15 +35,39 @@
         margin: 2% auto;
         padding: 0 0 10%;
         text-align: left;
-        width: 60%;
+        width: 80%;
         @include font-size( 16 );
 
     }
 }
 
 .team-member {
+    color: $text-color-light;
+    // float: left;
+    font-size: 1.5rem;
+    width: 100%;
+
     img{
+        display: block;
         width: 100%;
+    }
+    
+    .team-member-information {
+        display: block;
+
+        h3, 
+        h4 {
+            display: block;
+            font-size: 2rem;
+            padding: 0 5%;
+            width: 100%;
+        }
+
+        p {
+            box-sizing: border;
+            padding: 0 10%;
+            width: 80%;
+        }
     }
 }
 
@@ -63,7 +87,7 @@
     background-color: ( $admin-color );
 }
 
-.team-collaborator {
+.team-collaborators {
     background-color: ( $collab-color );
 }
 
