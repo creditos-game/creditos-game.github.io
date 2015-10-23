@@ -406,63 +406,73 @@ li {
 
 .team-content {
   display: block;
-  height: auto;
+  overflow: hidden;
+  padding: 5% 0;
   width: 100%; }
 
 .team-details {
-  height: 30%;
   overflow: hidden;
   width: 100%; }
   .team-details h2 {
     color: #fff;
     font-family: "Finger Paint";
-    margin: 4% auto 0;
+    margin: auto 5%;
+    text-align: left;
     font-size: 24px;
     font-size: 2.4rem; }
   .team-details p {
     color: #fff;
     line-height: 1.6em;
-    margin: 2% auto;
-    padding: 0 0 10%;
-    text-align: left;
-    width: 80%;
-    font-size: 16px;
-    font-size: 1.6rem; }
+    margin: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    font-size: 18px;
+    font-size: 1.8rem; }
 
 .team-member {
   color: #fff;
-  font-size: 1.5rem;
-  width: 100%; }
+  width: 100%;
+  font-size: 18px;
+  font-size: 1.8rem; }
   .team-member img {
     display: block;
     width: 100%; }
   .team-member .team-member-information {
     display: block; }
-    .team-member .team-member-information h3,
-    .team-member .team-member-information h4 {
+    .team-member .team-member-information h3 {
       display: block;
-      font-size: 2rem;
+      font-family: "Finger Paint";
       padding: 0 5%;
-      width: 100%; }
+      width: 80%;
+      font-size: 24px;
+      font-size: 2.4rem; }
     .team-member .team-member-information p {
       box-sizing: border;
-      padding: 0 10%;
-      width: 80%; }
+      padding: 0 5%;
+      width: 90%; }
+    .team-member .team-member-information a {
+      color: #000;
+      font-family: "Finger Paint";
+      display: block;
+      overflow: hidden;
+      padding: 0 5% 8%;
+      width: 100%; }
 
-.team-developer {
+.team-web-development {
   background-color: #C94F60; }
 
-.team-post-productor {
-  background-color: #61BB49; }
+.team-production {
+  background-color: #50A03B;
+  color: #202020; }
 
-.team-animator {
-  background-color: #39BB9C; }
+.team-animation {
+  background-color: #19886E; }
 
-.team-admin {
+.team-administration {
   background-color: #F37C50; }
 
 .team-collaborators {
-  background-color: #c4c4c4; }
+  background-color: #505050; }
 
 .team-fair-play {
   background-color: #D7AE83; }
