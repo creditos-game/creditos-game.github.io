@@ -465,20 +465,42 @@ li {
 .header-nav {
   background-color: #363434;
   left: 0%;
-  height: 220px;
+  height: 280px;
   overflow: hidden;
   position: absolute;
   top: 17%;
   width: 100%; }
 
 .header-nav-content {
-  width: 100%;
   text-align: center;
-  padding: 10px 0; }
+  padding: 10px 0;
+  width: 100%; }
 
 .header-nav-item {
   border-bottom: 1px solid #f2f2f2;
   padding: 10px 0;
   width: 100%; }
+  .header-nav-item a {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: "Muli"; }
+
+.web-item {
+  color: #C94F60; }
+
+.post-item {
+  color: #61BB49; }
+
+.anim-item {
+  color: #39BB9C; }
+
+.admin-item {
+  color: #F37C50; }
+
+.collab-item {
+  color: #c4c4c4; }
+
+.fair-item {
+  color: #D7AE83; }
 
 /*# sourceMappingURL=styles.css.map */

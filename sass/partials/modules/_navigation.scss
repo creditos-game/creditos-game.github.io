@@ -1,4 +1,4 @@
-.show-menu{
+.show-menu {
 	@include font-size(14);
 	background: none;
 	border: 1px solid $text-color;
@@ -8,24 +8,53 @@
 	padding: 10px 20px;
 }
 
-.header-nav{
+.header-nav {
 	background-color: #363434;
 	left: 0%;
-	height: 220px;
+	height: 280px;
 	overflow: hidden;
 	position: absolute;
 	top: 17%;
 	width: 100%;
 }
 
-.header-nav-content{
-	width: 100%;
+.header-nav-content {
 	text-align: center;
 	padding: 10px 0;
+	width: 100%;
 }
 
-.header-nav-item{
+.header-nav-item {
 	border-bottom: 1px solid #f2f2f2;
 	padding: 10px 0;
 	width: 100%;
+
+	a {
+		@include font-size(18);
+		font-family: $text-font;
+	}
+}
+
+.web-item {
+	color: $web-color;
+}
+
+.post-item {
+	color: $post-prod-color;
+}
+
+.anim-item {
+	color: $anim-color;
+}
+
+.admin-item {
+	color: $admin-color;
+}
+
+.collab-item {
+	color: $collab-color;
+}
+
+.fair-item {
+	color: $fair-color;
 }
