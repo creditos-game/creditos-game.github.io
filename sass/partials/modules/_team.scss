@@ -14,7 +14,7 @@
 .team-content {
     display: block;
     overflow: hidden;
-    padding: 5% 0;
+    padding: 5% auto;
     width: 100%;
 }
 
@@ -37,36 +37,37 @@
         padding-bottom: 5%;
         width: 90%;
         @include font-size(18);
-
     }
 }
 
 .team-member {
     color: $text-color-light;
-    // float: left; activar si se cambia width a 50%
+    padding: 10% 0;
     width: 100%;
     @include font-size(18);
 
     img{
+        border-radius: 50%;
         display: block;
-        width: 100%;
+        margin: 0 auto;
+        width: 70%;
     }
-    
+
     .team-member-information {
         display: block;
 
         h3 {
             display: block;
             font-family: $title-font;
-            padding: 0 5%;
+            padding: 0 10%;
             width: 80%;
             @include font-size($title-mob-size);
         }
 
         p {
             box-sizing: border;
-            padding: 0 5%;
-            width: 90%;
+            padding: 0 10%;
+            width: 80%;
         }
 
         a {
@@ -74,35 +75,58 @@
             font-family: $title-font;
             display: block;
             overflow: hidden;
-            padding: 0 5% 8% ;
-            width: 100%
+            padding: 0 10% 8% ;
+            width: 100%;
         }
     }
 }
 
 .team-web-development {
-    background-color: ($web-color);
+    background-color: $web-color;
+    .team-member {
+        background-color: darken($web-color, 10%);
+    }
 }
 
 .team-production {
-    background-color: ($post-prod-color);
+    background-color: $post-prod-color;
+
     color: $text-color-dark;
+    .team-member {
+        background-color: darken($post-prod-color, 10%);
+    }
 }
 
 .team-animation {
-    background-color: ($anim-color);
+    background-color: $anim-color;
+
+    .team-member {
+        background-color: darken($anim-color, 10%);
+    }
 }
 
 .team-administration {
-    background-color: ($admin-color);
+    background-color: $admin-color;
+
+    .team-member {
+        background-color: darken($admin-color, 10%);
+    }
 }
 
 .team-collaborators {
-    background-color: ($collab-color);
+    background-color: $collab-color;
+
+    .team-member {
+        background-color: darken($collab-color, 10%);
+    }
 }
 
 .team-fair-play {
-    background-color: ($fair-color);
+    background-color: $fair-color;
+
+    .team-member {
+        background-color: darken($fair-color, 10%);
+    }
 }
 
 

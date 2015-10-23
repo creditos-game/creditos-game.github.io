@@ -407,7 +407,7 @@ li {
 .team-content {
   display: block;
   overflow: hidden;
-  padding: 5% 0;
+  padding: 5% auto;
   width: 100%; }
 
 .team-details {
@@ -431,51 +431,66 @@ li {
 
 .team-member {
   color: #fff;
+  padding: 10% 0;
   width: 100%;
   font-size: 18px;
   font-size: 1.8rem; }
   .team-member img {
+    border-radius: 50%;
     display: block;
-    width: 100%; }
+    margin: 0 auto;
+    width: 70%; }
   .team-member .team-member-information {
     display: block; }
     .team-member .team-member-information h3 {
       display: block;
       font-family: "Finger Paint";
-      padding: 0 5%;
+      padding: 0 10%;
       width: 80%;
       font-size: 24px;
       font-size: 2.4rem; }
     .team-member .team-member-information p {
       box-sizing: border;
-      padding: 0 5%;
-      width: 90%; }
+      padding: 0 10%;
+      width: 80%; }
     .team-member .team-member-information a {
       color: #000;
       font-family: "Finger Paint";
       display: block;
       overflow: hidden;
-      padding: 0 5% 8%;
+      padding: 0 10% 8%;
       width: 100%; }
 
 .team-web-development {
   background-color: #C94F60; }
+  .team-web-development .team-member {
+    background-color: #af3647; }
 
 .team-production {
   background-color: #50A03B;
   color: #202020; }
+  .team-production .team-member {
+    background-color: #3d7b2d; }
 
 .team-animation {
   background-color: #19886E; }
+  .team-animation .team-member {
+    background-color: #115d4b; }
 
 .team-administration {
   background-color: #F37C50; }
+  .team-administration .team-member {
+    background-color: #f05820; }
 
 .team-collaborators {
   background-color: #505050; }
+  .team-collaborators .team-member {
+    background-color: #373737; }
 
 .team-fair-play {
   background-color: #D7AE83; }
+  .team-fair-play .team-member {
+    background-color: #cb955c; }
 
 .show-menu {
   font-size: 14px;
