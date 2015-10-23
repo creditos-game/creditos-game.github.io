@@ -7,69 +7,102 @@
         padding: 20px 0;
         text-align: center;
         width: 100%;
-        @include font-size( 24 );
+        @include font-size(24);
     }
 }
-// content style for every team description.
+
 .team-content {
     display: block;
-    height: auto;
+    overflow: hidden;
+    padding: 5% 0;
     width: 100%;
 }
 
 .team-details {
-    background-color: $web-color;
-    height: 30%;
     overflow: hidden;
     width: 100%;
 
     h2 {
         color: $text-color-light;
         font-family: $title-font;
-        margin: 4% auto 0;
-        @include font-size( $title-mob-size );
+        margin: auto 5%;
+        text-align: left;
+        @include font-size($title-mob-size);
     }
 
     p {
         color: $text-color-light;
         line-height: 1.6em;
-        margin: 2% auto;
-        padding: 0 0 10%;
-        text-align: left;
-        width: 60%;
-        @include font-size( 16 );
+        margin: 5%;
+        padding-bottom: 5%;
+        width: 90%;
+        @include font-size(18);
 
     }
 }
 
 .team-member {
+    color: $text-color-light;
+    // float: left; activar si se cambia width a 50%
+    width: 100%;
+    @include font-size(18);
+
     img{
+        display: block;
         width: 100%;
+    }
+    
+    .team-member-information {
+        display: block;
+
+        h3 {
+            display: block;
+            font-family: $title-font;
+            padding: 0 5%;
+            width: 80%;
+            @include font-size($title-mob-size);
+        }
+
+        p {
+            box-sizing: border;
+            padding: 0 5%;
+            width: 90%;
+        }
+
+        a {
+            color: $link-color;
+            font-family: $title-font;
+            display: block;
+            overflow: hidden;
+            padding: 0 5% 8% ;
+            width: 100%
+        }
     }
 }
 
-.team-developer {
-    background-color: ( $web-color );
+.team-web-development {
+    background-color: ($web-color);
 }
 
-.team-post-productor {
-    background-color: ( $post-prod-color);
+.team-production {
+    background-color: ($post-prod-color);
+    color: $text-color-dark;
 }
 
-.team-animator {
-    background-color: ( $anim-color );
+.team-animation {
+    background-color: ($anim-color);
 }
 
-.team-admin {
-    background-color: ( $admin-color );
+.team-administration {
+    background-color: ($admin-color);
 }
 
-.team-collaborator {
-    background-color: ( $collab-color );
+.team-collaborators {
+    background-color: ($collab-color);
 }
 
 .team-fair-play {
-    background-color: ( $fair-color );
+    background-color: ($fair-color);
 }
 
 
