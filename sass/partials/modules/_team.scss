@@ -3,11 +3,11 @@
     width: 100%;
 
     h2 {
+        @include font-size(24);
         margin: 0;
         padding: 20px 0;
         text-align: center;
         width: 100%;
-        @include font-size(24);
     }
 }
 
@@ -23,28 +23,31 @@
     width: 100%;
 
     h2 {
+        @include font-size($title-mob-size);
         color: $text-color-light;
         font-family: $title-font;
         margin: auto 5%;
         text-align: left;
-        @include font-size($title-mob-size);
     }
 
     p {
+        @include font-size(18);
         color: $text-color-light;
         line-height: 1.6em;
         margin: 5%;
         padding-bottom: 5%;
         width: 90%;
-        @include font-size(18);
     }
 }
 
 .team-member {
+    @include font-size(15);
     color: $text-color-light;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box; 
     padding: 10% 0;
-    width: 100%;
-    @include font-size(18);
+    width: 50%;
 
     img{
         border-radius: 50%;
@@ -54,14 +57,14 @@
     }
 
     .team-member-information {
-        display: block;
+        display: none;
 
         h3 {
+            @include font-size(18);
             display: block;
             font-family: $title-font;
             padding: 0 10%;
             width: 80%;
-            @include font-size($title-mob-size);
         }
 
         p {
@@ -85,6 +88,7 @@
     background-color: $web-color;
     .team-member {
         background-color: darken($web-color, 10%);
+        border: 1px solid $web-color;
     }
 }
 
@@ -94,6 +98,7 @@
     color: $text-color-dark;
     .team-member {
         background-color: darken($post-prod-color, 10%);
+        border: 1px solid $post-prod-color;
     }
 }
 
@@ -102,6 +107,7 @@
 
     .team-member {
         background-color: darken($anim-color, 10%);
+        border: 1px solid $anim-color;
     }
 }
 
@@ -110,6 +116,7 @@
 
     .team-member {
         background-color: darken($admin-color, 10%);
+        border: 1px solid $admin-color;
     }
 }
 
@@ -118,6 +125,7 @@
 
     .team-member {
         background-color: darken($collab-color, 10%);
+        border: 1px solid $collab-color;
     }
 }
 
@@ -126,6 +134,7 @@
 
     .team-member {
         background-color: darken($fair-color, 10%);
+        border: 1px solid $fair-color;
     }
 }
 
