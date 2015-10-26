@@ -239,7 +239,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -535,6 +536,10 @@ li {
   @media screen and (min-width: 1000px) {
     .show-menu {
       display: none; } }
+  .show-menu:after {
+    content: url(../img/arrow-down.png);
+    float: right;
+    margin-left: 10px; }
 
 .header-nav {
   background-color: #171926;
@@ -553,11 +558,11 @@ li {
   padding: 0;
   position: relative;
   text-align: center;
-  transition: height 0.5s linear;
-  -webkit-transition: height 0.5s linear;
-  -moz-transition: height 0.5s linear;
-  -ms-transition: height 0.5s linear;
-  -o-transition: height 0.5s linear;
+  transition: height .5s linear;
+  -webkit-transition: height .5s linear;
+  -moz-transition: height .5s linear;
+  -ms-transition: height .5s linear;
+  -o-transition: height .5s linear;
   width: 100%; }
   @media screen and (min-width: 1000px) {
     .header-nav-content {
@@ -565,7 +570,7 @@ li {
       height: 75px; } }
 
 .expanded {
-  height: 260px; }
+  height: 270px; }
 
 .header-nav-item {
   border-bottom: 1px solid #f2f2f2;
