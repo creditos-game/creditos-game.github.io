@@ -239,8 +239,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -417,12 +416,12 @@ li {
   margin: 0;
   width: 100%; }
   .team-section-wrapper h2 {
+    font-size: 24px;
+    font-size: 2.4rem;
     margin: 0;
     padding: 20px 0;
     text-align: center;
-    width: 100%;
-    font-size: 24px;
-    font-size: 2.4rem; }
+    width: 100%; }
 
 .team-content {
   display: none;
@@ -434,41 +433,44 @@ li {
   overflow: hidden;
   width: 100%; }
   .team-details h2 {
+    font-size: 24px;
+    font-size: 2.4rem;
     color: #fff;
     font-family: "Finger Paint";
     margin: auto 5%;
-    text-align: left;
-    font-size: 24px;
-    font-size: 2.4rem; }
+    text-align: left; }
   .team-details p {
+    font-size: 18px;
+    font-size: 1.8rem;
     color: #fff;
     line-height: 1.6em;
     margin: 5%;
     padding-bottom: 5%;
-    width: 90%;
-    font-size: 18px;
-    font-size: 1.8rem; }
+    width: 90%; }
 
 .team-member {
+  font-size: 15px;
+  font-size: 1.5rem;
   color: #fff;
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
   padding: 10% 0;
-  width: 100%;
-  font-size: 18px;
-  font-size: 1.8rem; }
+  width: 50%; }
   .team-member img {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
     width: 70%; }
   .team-member .team-member-information {
-    display: block; }
+    display: none; }
     .team-member .team-member-information h3 {
+      font-size: 18px;
+      font-size: 1.8rem;
       display: block;
       font-family: "Finger Paint";
       padding: 0 10%;
-      width: 80%;
-      font-size: 24px;
-      font-size: 2.4rem; }
+      width: 80%; }
     .team-member .team-member-information p {
       box-sizing: border;
       padding: 0 10%;
@@ -484,33 +486,39 @@ li {
 .team-web-development {
   background-color: #C94F60; }
   .team-web-development .team-member {
-    background-color: #af3647; }
+    background-color: #af3647;
+    border: 1px solid #C94F60; }
 
 .team-production {
   background-color: #50A03B;
   color: #202020; }
   .team-production .team-member {
-    background-color: #3d7b2d; }
+    background-color: #3d7b2d;
+    border: 1px solid #50A03B; }
 
 .team-animation {
   background-color: #19886E; }
   .team-animation .team-member {
-    background-color: #115d4b; }
+    background-color: #115d4b;
+    border: 1px solid #19886E; }
 
 .team-administration {
   background-color: #F37C50; }
   .team-administration .team-member {
-    background-color: #f05820; }
+    background-color: #f05820;
+    border: 1px solid #F37C50; }
 
 .team-collaborators {
   background-color: #2583B3; }
   .team-collaborators .team-member {
-    background-color: #1c6489; }
+    background-color: #1c6489;
+    border: 1px solid #2583B3; }
 
 .team-fair-play {
   background-color: #D7AE83; }
   .team-fair-play .team-member {
-    background-color: #cb955c; }
+    background-color: #cb955c;
+    border: 1px solid #D7AE83; }
 
 .visible {
   display: block; }
@@ -545,11 +553,11 @@ li {
   padding: 0;
   position: relative;
   text-align: center;
-  transition: height .5s linear;
-  -webkit-transition: height .5s linear;
-  -moz-transition: height .5s linear;
-  -ms-transition: height .5s linear;
-  -o-transition: height .5s linear;
+  transition: height 0.5s linear;
+  -webkit-transition: height 0.5s linear;
+  -moz-transition: height 0.5s linear;
+  -ms-transition: height 0.5s linear;
+  -o-transition: height 0.5s linear;
   width: 100%; }
   @media screen and (min-width: 1000px) {
     .header-nav-content {
