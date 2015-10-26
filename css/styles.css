@@ -425,7 +425,7 @@ li {
     font-size: 2.4rem; }
 
 .team-content {
-  display: block;
+  display: none;
   overflow: hidden;
   padding: 5% auto;
   width: 100%; }
@@ -511,6 +511,9 @@ li {
   background-color: #D7AE83; }
   .team-fair-play .team-member {
     background-color: #cb955c; }
+
+.visible {
+  display: block; }
 
 .show-menu {
   font-size: 14px;
