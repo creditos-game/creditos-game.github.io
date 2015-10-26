@@ -7,7 +7,7 @@
 	margin: 20px 0;
 	padding: 10px 20px;
 
-	@media screen and (min-width: 1000px){
+	@media screen and (min-width: 1000px) {
 		display: none;
 	}
 }
@@ -19,14 +19,11 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-
-	/* @media screen and (min-width: 1000px){
-		height: 100px;
-	}*/
 } 
 
 .header-nav-content {
-	background-color: darken($nav-back-color, 10%);
+	background-color: $nav-back-color;
+	background-size: cover;
     height: 0;
     margin: 0;
     overflow: hidden;
@@ -34,15 +31,19 @@
     position: relative;
     text-align: center;
     transition: height .5s linear;
+    -webkit-transition: height .5s linear;
+    -moz-transition: height .5s linear;
+    -ms-transition: height .5s linear;
+    -o-transition: height .5s linear;
     width: 100%;
 
     @media screen and (min-width: 1000px){
 		float: left;
-		height: 100px;
+		height: 75px;
     }
 }
 
-.expanded{
+.expanded {
 	height: 260px
 }
 
@@ -54,29 +55,76 @@
 	a {
 		@include font-size(18);
 		font-family: $text-font;
+
+		&:hover {
+			color: #f2f2f2;
+		}
+
+		@media screen and (min-width: 1000px) {
+			@include font-size(14);
+			display: block;
+			padding: 24px 0 32px;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	@media screen and (min-width: 1000px) {
+		border: none;
+		float: left;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		width: 16.666%;
 	}
 }
 
+// Colores para los elementos de la navegación //
 .web-item {
 	color: $web-color;
+
+	&:hover {
+		background-color: $web-color;
+	}
 }
 
 .post-item {
 	color: $post-prod-color;
+
+	&:hover {
+		background-color: $post-prod-color;
+	}
 }
 
 .anim-item {
 	color: $anim-color;
+
+	&:hover {
+		background-color: $anim-color;
+	}
 }
 
 .admin-item {
 	color: $admin-color;
+
+	&:hover {
+		background-color: $admin-color;
+	}
 }
 
 .collab-item {
 	color: $collab-color;
+
+	&:hover {
+		background-color: $collab-color;
+	}
 }
 
 .fair-item {
 	color: $fair-color;
+
+	&:hover {
+		background-color: $fair-color;
+	}
 }

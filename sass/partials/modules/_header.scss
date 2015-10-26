@@ -1,5 +1,14 @@
 .main-header {
-    background-image: url("../img/header-banner.jpg");
+    background: url("../img/header-banner.jpg") no-repeat;
+    -moz-background: url("../img/header-banner.jpg") no-repeat;
+    -webkit-background: url("../img/header-banner.jpg") no-repeat;
+    -o-background: url("../img/header-banner.jpg") no-repeat;
+    -ms-background: url("../img/header-banner.jpg") no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
     overflow: hidden;
     padding: 150px 0 100px;
     text-align: center;
@@ -13,16 +22,26 @@
         padding: 20px 0;
         width: 85%;
         @include font-size($title-mob-size);
+
+        @media screen and (min-width: 1000px) {
+            @include font-size(60);
+            width: 50%;
+        }
     }
 }
 
 .brief {
     @include font-size(18);
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(255,255,255,.1);
     box-sizing: border-box;
     color: $text-color;
     font-family: $text-font;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
     width: 85%;
+
+    @media screen and (min-width: 1000px) {
+        @include font-size(24);
+        width: 35%;
+    }
 }
