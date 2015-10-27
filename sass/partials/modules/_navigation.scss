@@ -25,7 +25,7 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-} 
+}
 
 .header-nav-content {
 	background-color: $nav-back-color;
@@ -63,7 +63,6 @@
 		font-family: $text-font;
 
 		&:hover {
-			background-color: transparent;
 			color: #f2f2f2;
 		}
 
@@ -91,47 +90,59 @@
 .web-item {
 	color: $web-color;
 
-	&:hover {
-		background-color: $web-color;
+	@media screen and (min-width: 1000px) {
+		&:hover {
+			background-color: $web-color;
+		}
 	}
 }
 
 .post-item {
 	color: $post-prod-color;
 
-	&:hover {
-		background-color: $post-prod-color;
+	@media screen and (min-width: 1000px) {
+		&:hover {
+			background-color: $post-prod-color;
+		}
 	}
 }
 
 .anim-item {
 	color: $anim-color;
 
-	&:hover {
-		background-color: $anim-color;
+	@media screen and (min-width: 1000px) {
+		&:hover {
+			background-color: $anim-color;
+		}
 	}
 }
 
 .admin-item {
 	color: $admin-color;
 
-	&:hover {
-		background-color: $admin-color;
+	@media screen and (min-width: 1000px) {
+		&:hover {
+			background-color: $admin-color;
+		}
 	}
 }
 
 .collab-item {
 	color: $collab-color;
 
-	&:hover {
-		background-color: $collab-color;
+	@media screen and (min-width: 1000px) {
+		&:hover {
+			background-color: $collab-color;
+		}
 	}
 }
 
 .fair-item {
 	color: $fair-color;
 
-	&:hover {
-		background-color: $fair-color;
+	@media screen and (min-width: 1000px) {
+		&:hover {
+			background-color: $fair-color;
+		}
 	}
 }

@@ -2,3 +2,11 @@
   font-size: $size + px;
   font-size: ($size / 10) + rem;
 }
+
+@mixin nav-items($color) {
+	color: $color;
+
+	&:hover {
+		background-color: &color;
+	}
+}

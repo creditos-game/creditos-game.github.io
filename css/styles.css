@@ -583,7 +583,6 @@ li {
     font-size: 1.8rem;
     font-family: "Muli"; }
     .header-nav-item a:hover {
-      background-color: transparent;
       color: #f2f2f2; }
     @media screen and (min-width: 1000px) {
       .header-nav-item a {
@@ -605,32 +604,38 @@ li {
 
 .web-item {
   color: #C94F60; }
-  .web-item:hover {
-    background-color: #C94F60; }
+  @media screen and (min-width: 1000px) {
+    .web-item:hover {
+      background-color: #C94F60; } }
 
 .post-item {
   color: #50A03B; }
-  .post-item:hover {
-    background-color: #50A03B; }
+  @media screen and (min-width: 1000px) {
+    .post-item:hover {
+      background-color: #50A03B; } }
 
 .anim-item {
   color: #19886E; }
-  .anim-item:hover {
-    background-color: #19886E; }
+  @media screen and (min-width: 1000px) {
+    .anim-item:hover {
+      background-color: #19886E; } }
 
 .admin-item {
   color: #F37C50; }
-  .admin-item:hover {
-    background-color: #F37C50; }
+  @media screen and (min-width: 1000px) {
+    .admin-item:hover {
+      background-color: #F37C50; } }
 
 .collab-item {
   color: #2583B3; }
-  .collab-item:hover {
-    background-color: #2583B3; }
+  @media screen and (min-width: 1000px) {
+    .collab-item:hover {
+      background-color: #2583B3; } }
 
 .fair-item {
   color: #D7AE83; }
-  .fair-item:hover {
-    background-color: #D7AE83; }
+  @media screen and (min-width: 1000px) {
+    .fair-item:hover {
+      background-color: #D7AE83; } }
 
 /*# sourceMappingURL=styles.css.map */
