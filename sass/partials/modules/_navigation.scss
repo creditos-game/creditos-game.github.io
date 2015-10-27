@@ -63,14 +63,15 @@
 		font-family: $text-font;
 
 		&:hover {
+			background-color: transparent;
 			color: #f2f2f2;
 		}
 
 		@media screen and (min-width: 1000px) {
 			@include font-size(14);
 			display: block;
-			padding: 24px 0 32px;
-			height: 100%;
+			padding: 24px 0 13px;
+			height: 50%;
 			width: 100%;
 		}
 	}

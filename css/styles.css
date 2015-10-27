@@ -239,7 +239,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -559,11 +560,11 @@ li {
   padding: 0;
   position: relative;
   text-align: center;
-  transition: height 0.5s linear;
-  -webkit-transition: height 0.5s linear;
-  -moz-transition: height 0.5s linear;
-  -ms-transition: height 0.5s linear;
-  -o-transition: height 0.5s linear;
+  transition: height .5s linear;
+  -webkit-transition: height .5s linear;
+  -moz-transition: height .5s linear;
+  -ms-transition: height .5s linear;
+  -o-transition: height .5s linear;
   width: 100%; }
   @media screen and (min-width: 1000px) {
     .header-nav-content {
@@ -582,14 +583,15 @@ li {
     font-size: 1.8rem;
     font-family: "Muli"; }
     .header-nav-item a:hover {
+      background-color: transparent;
       color: #f2f2f2; }
     @media screen and (min-width: 1000px) {
       .header-nav-item a {
         font-size: 14px;
         font-size: 1.4rem;
         display: block;
-        padding: 24px 0 32px;
-        height: 100%;
+        padding: 24px 0 13px;
+        height: 50%;
         width: 100%; } }
   @media screen and (min-width: 1000px) {
     .header-nav-item {
