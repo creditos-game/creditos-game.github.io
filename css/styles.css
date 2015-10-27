@@ -467,7 +467,7 @@ li {
   .team-member:hover .team-member-information {
     transform: translateY(0); }
   .team-member .team-member-information {
-    bottom: 55%;
+    bottom: 55.5%;
     color: white;
     left: 0;
     padding: 10px;
