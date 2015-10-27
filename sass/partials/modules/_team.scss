@@ -48,6 +48,7 @@
     box-sizing: border-box; 
     padding: 10% 0;
     width: 50%;
+    z-index: 1;
 
     img{
         border-radius: 50%;
@@ -56,9 +57,14 @@
         width: 70%;
     }
 
-    .team-member-information {
-        display: none;
+    // &:hover .team-member-information {
+    //     visibility: visible;
+    //     z-index: 2; 
+    // }
 
+    .team-member-information {
+        // visibility: hidden;
+        
         h3 {
             @include font-size(18);
             display: block;

@@ -239,8 +239,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -457,32 +456,31 @@ li {
   float: left;
   box-sizing: border-box;
   padding: 10% 0;
-  width: 50%; }
+  width: 50%;
+  z-index: 1; }
   .team-member img {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
     width: 70%; }
-  .team-member .team-member-information {
-    display: none; }
-    .team-member .team-member-information h3 {
-      font-size: 18px;
-      font-size: 1.8rem;
-      display: block;
-      font-family: "Finger Paint";
-      padding: 0 10%;
-      width: 80%; }
-    .team-member .team-member-information p {
-      box-sizing: border;
-      padding: 0 10%;
-      width: 80%; }
-    .team-member .team-member-information a {
-      color: #000;
-      font-family: "Finger Paint";
-      display: block;
-      overflow: hidden;
-      padding: 0 10% 8%;
-      width: 100%; }
+  .team-member .team-member-information h3 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    display: block;
+    font-family: "Finger Paint";
+    padding: 0 10%;
+    width: 80%; }
+  .team-member .team-member-information p {
+    box-sizing: border;
+    padding: 0 10%;
+    width: 80%; }
+  .team-member .team-member-information a {
+    color: #000;
+    font-family: "Finger Paint";
+    display: block;
+    overflow: hidden;
+    padding: 0 10% 8%;
+    width: 100%; }
 
 .team-web-development {
   background-color: #C94F60; }
@@ -558,11 +556,11 @@ li {
   padding: 0;
   position: relative;
   text-align: center;
-  transition: height .5s linear;
-  -webkit-transition: height .5s linear;
-  -moz-transition: height .5s linear;
-  -ms-transition: height .5s linear;
-  -o-transition: height .5s linear;
+  transition: height 0.5s linear;
+  -webkit-transition: height 0.5s linear;
+  -moz-transition: height 0.5s linear;
+  -ms-transition: height 0.5s linear;
+  -o-transition: height 0.5s linear;
   width: 100%; }
   @media screen and (min-width: 1000px) {
     .header-nav-content {
