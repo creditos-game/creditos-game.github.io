@@ -58,16 +58,18 @@
     &:hover .team-member-information {
         visibility: visible;
     }
-    
+
     &:disabled .team-member-information {
         visibility: hidden;
     }
 
     .team-member-information {
-        background: rgba (0,0,0, .8);
+        background-color: rgba(0,0,0, .8);
+        height: inherit;
+        margin: -12em 0 0 0;
         position: absolute;
         visibility: hidden;
-        margin: -12em 0 0 0;
+        width: 50%;
         z-index: 2;
 
         h3 {
@@ -85,11 +87,10 @@
         }
 
         a {
-            color: $link-color;
-            font-family: $title-font;
+            color: white;
             display: block;
-            overflow: hidden;
-            padding: 0 10% 8% ;
+            font-family: $title-font;
+            padding: 0 0 0 10% ;
             width: 100%;
         }
     }
@@ -99,7 +100,6 @@
     background-color: $web-color;
     .team-member {
         background-color: darken($web-color, 10%);
-        border: 1px solid $web-color;
     }
 }
 
@@ -109,9 +109,7 @@
     color: $text-color-dark;
     .team-member {
         background-color: darken($post-prod-color, 10%);
-        border: 1px solid $post-prod-color;
     }
-
 }
 
 .team-animation {
@@ -119,7 +117,6 @@
 
     .team-member {
         background-color: darken($anim-color, 10%);
-        border: 1px solid $anim-color;
     }
 }
 
@@ -128,7 +125,6 @@
 
     .team-member {
         background-color: darken($admin-color, 10%);
-        border: 1px solid $admin-color;
     }
 }
 
@@ -137,7 +133,6 @@
 
     .team-member {
         background-color: darken($collab-color, 10%);
-        border: 1px solid $collab-color;
     }
 }
 
@@ -146,7 +141,6 @@
 
     .team-member {
         background-color: darken($fair-color, 10%);
-        border: 1px solid $fair-color;
     }
 }
 
