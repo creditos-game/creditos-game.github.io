@@ -88,61 +88,25 @@
 
 // Colores para los elementos de la navegación //
 .web-item {
-	color: $web-color;
-
-	@media screen and (min-width: 1000px) {
-		&:hover {
-			background-color: $web-color;
-		}
-	}
+	@include nav-items-colors ($web-color);
 }
 
 .post-item {
-	color: $post-prod-color;
-
-	@media screen and (min-width: 1000px) {
-		&:hover {
-			background-color: $post-prod-color;
-		}
-	}
+	@include nav-items-colors ($post-prod-color);
 }
 
 .anim-item {
-	color: $anim-color;
-
-	@media screen and (min-width: 1000px) {
-		&:hover {
-			background-color: $anim-color;
-		}
-	}
+	@include nav-items-colors ($anim-color);
 }
 
 .admin-item {
-	color: $admin-color;
-
-	@media screen and (min-width: 1000px) {
-		&:hover {
-			background-color: $admin-color;
-		}
-	}
+	@include nav-items-colors ($admin-color);
 }
 
 .collab-item {
-	color: $collab-color;
-
-	@media screen and (min-width: 1000px) {
-		&:hover {
-			background-color: $collab-color;
-		}
-	}
+	@include nav-items-colors ($collab-color);
 }
 
 .fair-item {
-	color: $fair-color;
-
-	@media screen and (min-width: 1000px) {
-		&:hover {
-			background-color: $fair-color;
-		}
-	}
+	@include nav-items-colors ($fair-color);
 }
