@@ -455,32 +455,40 @@ li {
   display: inline-block;
   float: left;
   box-sizing: border-box;
-  padding: 10% 0;
   width: 50%;
   z-index: 1; }
   .team-member img {
-    border-radius: 50%;
     display: block;
     margin: 0 auto;
-    width: 70%; }
-  .team-member .team-member-information h3 {
-    font-size: 18px;
-    font-size: 1.8rem;
-    display: block;
-    font-family: "Finger Paint";
-    padding: 0 10%;
-    width: 80%; }
-  .team-member .team-member-information p {
-    box-sizing: border;
-    padding: 0 10%;
-    width: 80%; }
-  .team-member .team-member-information a {
-    color: #000;
-    font-family: "Finger Paint";
-    display: block;
-    overflow: hidden;
-    padding: 0 10% 8%;
     width: 100%; }
+  .team-member:hover .team-member-information {
+    visibility: visible; }
+  .team-member:disabled .team-member-information {
+    visibility: hidden; }
+  .team-member .team-member-information {
+    background: rgba 0, 0, 0, 0.8;
+    position: absolute;
+    visibility: hidden;
+    margin: -12em 0 0 0;
+    z-index: 2; }
+    .team-member .team-member-information h3 {
+      font-size: 18px;
+      font-size: 1.8rem;
+      display: block;
+      font-family: "Finger Paint";
+      padding: 0 10%;
+      width: 80%; }
+    .team-member .team-member-information p {
+      box-sizing: border;
+      padding: 0 10%;
+      width: 80%; }
+    .team-member .team-member-information a {
+      color: #000;
+      font-family: "Finger Paint";
+      display: block;
+      overflow: hidden;
+      padding: 0 10% 8%;
+      width: 100%; }
 
 .team-web-development {
   background-color: #C94F60; }
